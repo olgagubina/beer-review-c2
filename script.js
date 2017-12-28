@@ -20,9 +20,9 @@ function renderBeers() {
     }
 }
 
-// TO POST BEER LIST
+// TO GET POST NEW BEER ITEM
 function postBeer() {
-    addBeer($('.beer-input').val(), $('.category-input').val(), $('#sel1').val();;
+    addBeer($('.beer-input').val(), $('.category-input').val(), $('#sel1').val());
     renderBeers();
 
     $('.beer-input').val('')
