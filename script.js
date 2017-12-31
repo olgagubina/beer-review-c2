@@ -13,6 +13,10 @@ function addBeer (name, category, raiting) {
     );
 }
 
+/// SOME MESSSSSSSSSSSSSSSSSS!
+
+
+
 // TO ADD BEER TO THE HTML-list
 function renderBeers() {
     $('.beers-list').html('');
